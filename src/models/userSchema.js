@@ -58,6 +58,9 @@ const userSchema = new mongoose.Schema({
     verifyToken: {
         type: String,
     }
+},
+{
+    timestamps: true
 });
 
 // Hash password before saving
