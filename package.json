@@ -1,0 +1,18 @@
+{
+  "name": "null-pointers-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "Null Pointers",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "prettier": "^3.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
