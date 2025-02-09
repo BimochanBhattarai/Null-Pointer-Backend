@@ -43,10 +43,6 @@ const userSchema = new mongoose.Schema({
         required: true,
         minlength: 6
     },
-    profilePicture: {
-        type: String, // URL or file path
-        default: ""
-    },
     tokens: [
         {
             token: {
