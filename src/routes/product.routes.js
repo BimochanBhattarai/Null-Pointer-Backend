@@ -18,9 +18,9 @@ router.route("/")
 
 router.post(
     "/",
-    verifyJWT, // 1. Auth check
-    upload.single("productImage"), // 2. Multer file parsing
-    createProduct // 3. Controller
+    verifyJWT,
+    upload.single("productImage"),
+    createProduct
 );
 
 router.route("/:productId")
