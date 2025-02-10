@@ -18,7 +18,7 @@ router.route("/")
 
 router.post(
     "/",
-    // verifyJWT,
+    verifyJWT,
     upload.single("productImage"),
     createProduct
 );
